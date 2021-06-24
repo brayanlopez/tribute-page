@@ -42,28 +42,36 @@ function poner(time, data) {
 let timelineData = {
   fechas: [{
     año: 1914,
-    suceso: "Born in Cresco, Iowa" },
+    suceso: "Born in Cresco, Iowa"
+  },
   {
     año: 1933,
-    suceso: `Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"` },
+    suceso: `Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"`
+  },
   {
     año: 19,
-    suceso: "" },
+    suceso: ""
+  },
   {
     año: 19,
-    suceso: "" },
+    suceso: ""
+  },
   {
     año: 19,
-    suceso: "" },
+    suceso: ""
+  },
   {
     año: 19,
-    suceso: "" },
+    suceso: ""
+  },
   {
     año: 19,
-    suceso: "" },
+    suceso: ""
+  },
   {
     año: 19,
-    suceso: "" }],
+    suceso: ""
+  }],
 
   1914: "Born in Cresco, Iowa",
   1933: `Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"`,
@@ -80,7 +88,8 @@ let timelineData = {
   1983: "helps seven African countries dramatically increase their maize and sorghum yields",
   1984: "becomes a distinguished professor at Texas A&M University",
   2005: `states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."`,
-  2009: "dies at the age of 95" };
+  2009: "dies at the age of 95"
+};
 
 
 let timeline = document.getElementById("tribute-info");
