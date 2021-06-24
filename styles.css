@@ -3,13 +3,37 @@
   padding: 0px;
 }
 
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+#title {
+  font-size: 1.4rem;
+  padding: 25px 0px;
+}
+
+#subtitle{
+  font-size: 1.2rem;
+  padding: 25px;
+}
+
+#header p {
+  padding: 25px 0px;
+  background-color: transparent;
+}
+
 #main,
 #header,
 #footer {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.1);
+  background: #eee;
 }
 
 #title {
@@ -17,23 +41,30 @@
 }
 
 #img-div {
-  max-width: 95%;
-  margin: auto;
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
 }
 
-#image {
-  margin: auto;
-  width: 98%;
+img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
 }
 
 .timeline {
   display: flex;
   margin: auto;
-  max-width: 80%;
+  max-width: 550px;
   padding-left: 25px;
   list-style: circle;
   text-align: left;
@@ -41,4 +72,24 @@
 
 .timeline ul li {
   padding: 5px;
+}
+
+.blockquote{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  max-width: 550px;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.blockquote cite{
+  margin-bottom: 15px;
+}
+
+.font-medium{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 35px;
 }
